@@ -1,9 +1,7 @@
-from scrape_links import ScrapeLinks
+from scrape_links import RecipeCrawler
 
-domain_url = 'https://astroneer.fandom.com'
-url = 'https://astroneer.fandom.com/ja/wiki/カテゴリ:大型'
+path = '/ja/wiki/カテゴリ:大型'
 
-links = ScrapeLinks()
-links.domain_url = domain_url
-links.url = url
-links.scrape_details()
+crawler = RecipeCrawler()
+crawler.set_path(path)
+crawler.scrape_details()
