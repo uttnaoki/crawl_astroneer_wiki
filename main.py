@@ -1,21 +1,21 @@
-from scrape_links import RecipeCrawler
+from recipe_crawler import RecipeCrawler
 import json
 
 path = '/ja/wiki/カテゴリ:大型'
 
 path_dict = {
-    '小型': '/ja/wiki/カテゴリ:小型',
-    '中型': '/ja/wiki/カテゴリ:中型',
-    '大型': '/ja/wiki/カテゴリ:大型',
-    '超大型': '/ja/wiki/カテゴリ:超大型',
+    'Small': '/wiki/Category:Small',
+    'Medium': '/wiki/Category:Medium',
+    'Large': '/wiki/Category:Large',
+    'Extra_Large': '/wiki/Category:Extra_Large',
 }
 
 crawler = RecipeCrawler()
 recipes_for_each_tier = {
-    '小型': {},
-    '中型': {},
-    '大型': {},
-    '超大型': {},
+    'Small': {},
+    'Medium': {},
+    'Large': {},
+    'Extra_Large': {},
 }
 
 for tier_name in path_dict.keys():

@@ -9,6 +9,9 @@ HOST_URL = 'https://astroneer.fandom.com'
 class RecipeCrawler():
     def __init__(self):
         self.path = ''
+        # クロール対象外のモジュール
+        with open('skip_modules.txt', 'r') as f:
+            self.skip_modules = f.read().split("\n")
 
     def set_path(self, path):
         self.path = path
@@ -36,13 +39,15 @@ class RecipeCrawler():
 
         for link in links:
             print(link['name'])
+            if link['name'] in self.skip_modules or 'Template' in link['name']:
+                continue
             response = requests.get(HOST_URL + link['url'])
             soup = BeautifulSoup(response.text, 'html.parser')
             tr_list = soup.select('table.infoboxtable tr')
             time.sleep(DELAY_SEC)
 
             # クラフト対象でなければ continue
-            if len(tr_list) < 8:
+            if len(tr_list) < 9:
                 continue
             td = tr_list[7].select('td')[0]
             module_recipes[link['name']] = self.shape_mat_tag(td)

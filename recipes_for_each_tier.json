@@ -1,83 +1,289 @@
 {
-  "小型": {
-    "エクステンダー": [{ "name": "銅", "num": 1 }],
-    "ガラス": [],
-    "セラミック": [],
-    "タングステン": [],
-    "テザー": [{ "name": "コンパウンド", "num": 1 }],
-    "パッケージャー": [{ "name": "黒鉛", "num": 1 }],
-    "ビーコン": [{ "name": "石英", "num": 1 }],
-    "ホバーボード": [],
-    "ポータブル酸素供給器": [{ "name": "ナノカーボン合金", "num": 1 }],
-    "ワークライト": [{ "name": "銅", "num": 1 }],
-    "亜鉛": [],
-    "小型カメラ": [
-      { "name": ",", "num": 2 },
-      { "name": "バイト", "num": 500 }
-    ],
-    "小型ソーラー": [{ "name": "銅", "num": 1 }],
-    "小型バッテリー": [{ "name": "亜鉛", "num": 1 }],
-    "小型プリンター": [{ "name": "コンパウンド", "num": 1 }],
-    "小型発電機": [{ "name": "コンパウンド", "num": 1 }],
-    "小型風力タービン": [{ "name": "セラミック", "num": 1 }],
-    "投光器": [{ "name": "タングステン", "num": 1 }],
-    "炭素": [],
-    "酸素タンク": [{ "name": "ガラス", "num": 1 }],
-    "鉄": []
+  "Small": {
+    "Alignment Mod": [{ "name": "Zinc", "num": 1 }],
+    "Battery Sensor": [],
+    "Beacon": [{ "name": "Quartz", "num": 1 }],
+    "Boost Mod": [{ "name": "Zinc", "num": 1 }],
+    "Button Repeater": [],
+    "Count Repeater": [],
+    "Delay Repeater": [],
+    "Drill Mod 1": [{ "name": "Ceramic", "num": 1 }],
+    "Drill Mod 2": [{ "name": "Tungsten", "num": 1 }],
+    "Drill Mod 3": [{ "name": "Diamond", "num": 1 }],
+    "Dynamite": [{ "name": "E", "num": 1 }],
+    "Extenders": [{ "name": "Copper", "num": 1 }],
+    "Fireworks": [{ "name": "E", "num": 1 }],
+    "Floodlight": [{ "name": "Tungsten", "num": 1 }],
+    "Glowsticks": [],
+    "Holographic Figurine": [{ "name": "Plastic", "num": 1 }],
+    "Hoverboard": [],
+    "Hydrazine Jet Pack": [],
+    "Inhibitor Mod": [{ "name": "Zinc", "num": 1 }],
+    "Narrow Mod": [{ "name": "Zinc", "num": 1 }],
+    "Oxygen Filters": [{ "name": "Resin", "num": 1 }],
+    "Oxygen Tank": [{ "name": "Glass", "num": 1 }],
+    "Packager": [{ "name": "Graphite", "num": 1 }],
+    "Portable Oxygenator": [{ "name": "Nanocarbon", "num": 1 }],
+    "Power Cells": [{ "name": "Graphite", "num": 1 }],
+    "Power Sensor": [],
+    "Power Switch": [{ "name": "Copper", "num": 1 }],
+    "Probe Scanner": [{ "name": "Steel", "num": 1 }],
+    "Proximity Repeater": [],
+    "Small Battery": [{ "name": "Zinc", "num": 1 }],
+    "Small Canister": [{ "name": "Resin", "num": 1 }],
+    "Small Generator": [{ "name": "Compound", "num": 1 }],
+    "Small Printer": [{ "name": "Compound", "num": 1 }],
+    "Small Solar Panel": [{ "name": "Copper", "num": 1 }],
+    "Small Trumpet Horn": [{ "name": "Resin", "num": 1 }],
+    "Small Wind Turbine": [{ "name": "Ceramic", "num": 1 }],
+    "Solid-Fuel Jump Jet": [],
+    "Storage Sensor": [],
+    "Terrain Analyzer": [{ "name": "Zinc", "num": 1 }],
+    "Tethers": [{ "name": "Compound", "num": 1 }],
+    "Wide Mod": [{ "name": "Zinc", "num": 1 }],
+    "Worklight": [{ "name": "Copper", "num": 1 }]
   },
-  "中型": {
-    "中型プラットフォームA": [{ "name": "樹脂", "num": 1 }],
-    "中型Tプラットフォーム": [{ "name": "樹脂", "num": 2 }],
-    "中型プラットフォームB": [{ "name": "樹脂", "num": 2 }],
-    "中型プラットフォームC": [{ "name": "樹脂", "num": 1 }],
-    "交易プラットフォーム": [
-      { "name": "EXOチップ", "num": 1 },
-      { "name": "タングステン", "num": 1 },
-      { "name": "鉄", "num": 1 }
+  "Medium": {
+    "Auto Arm": [],
+    "Drill Strength 1": [
+      { "name": "Ceramic", "num": 1 },
+      { "name": "Tungsten", "num": 1 }
     ],
-    "高いプラットフォーム": [{ "name": "セラミック", "num": 1 }]
+    "Drill Strength 2": [
+      { "name": "Titanium", "num": 1 },
+      { "name": "Alloy", "num": 1 }
+    ],
+    "Drill Strength 3": [
+      { "name": "Titanium", "num": 1 },
+      { "name": "Alloy", "num": 1 }
+    ],
+    "Dropship": [
+      { "name": "Titanium", "num": 1 },
+      { "name": "Alloy", "num": 1 }
+    ],
+    "Field Shelter": [
+      { "name": "Silicone", "num": 1 },
+      { "name": "Graphene", "num": 1 }
+    ],
+    "Hydrazine Thruster": [
+      { "name": "EXO", "num": 1 },
+      { "name": "Chip", "num": 1 }
+    ],
+    "Medium Battery": [
+      { "name": "Zinc", "num": 1 },
+      { "name": "Lithium", "num": 1 }
+    ],
+    "Medium Buggy Horn": [
+      { "name": "Plastic", "num": 1 },
+      { "name": "Rubber", "num": 1 }
+    ],
+    "Medium Fluid & Soil Canister": [
+      { "name": "Plastic", "num": 1 },
+      { "name": "Glass", "num": 1 }
+    ],
+    "Medium Gas Canister": [],
+    "Medium Generator": [
+      { "name": "Tungsten", "num": 1 },
+      { "name": "Aluminum", "num": 1 }
+    ],
+    "Medium Platform A": [{ "name": "Resin", "num": 1 }],
+    "Medium Platform B": [{ "name": "Resin", "num": 2 }],
+    "Medium Platform C": [{ "name": "Resin", "num": 1 }],
+    "Medium Printer": [{ "name": "Compound", "num": 2 }],
+    "Medium Resource Canister": [],
+    "Medium Shredder": [{ "name": "Iron", "num": 2 }],
+    "Medium Solar Panel": [
+      { "name": "Copper", "num": 1 },
+      { "name": "Glass", "num": 1 }
+    ],
+    "Medium Storage": [{ "name": "Resin", "num": 2 }],
+    "Medium Storage Silo": [{ "name": "Titanium", "num": 2 }],
+    "Medium T-Platform": [{ "name": "Resin", "num": 2 }],
+    "Medium Wind Turbine": [
+      { "name": "Aluminum", "num": 1 },
+      { "name": "Ceramic", "num": 1 }
+    ],
+    "Oxygenator": [],
+    "Paver": [
+      { "name": "Aluminum", "num": 1 },
+      { "name": "Alloy", "num": 1 }
+    ],
+    "Rover Seat": [{ "name": "Compound", "num": 2 }],
+    "RTG": [
+      { "name": "Nanocarbon", "num": 1 },
+      { "name": "Alloy", "num": 1 }
+    ],
+    "Shuttle Seat": [{ "name": "Aluminum", "num": 2 }],
+    "Solid-Fuel Thruster": [
+      { "name": "Ammonium", "num": 1 },
+      { "name": "Aluminum", "num": 1 }
+    ],
+    "Splitter": [],
+    "Tall Platform": [{ "name": "Ceramic", "num": 1 }],
+    "Tall Storage": [{ "name": "Ceramic", "num": 1 }],
+    "Tractor": [{ "name": "Aluminum", "num": 2 }],
+    "Trailer": [],
+    "Winch": [
+      { "name": "EXO", "num": 1 },
+      { "name": "Chip", "num": 1 }
+    ]
   },
-  "大型": {
-    "大型台形プラットフォーム": [
-      { "name": "アルミニウム", "num": 2 },
-      { "name": "混合物", "num": 1 }
+  "Large": {
+    "Atmospheric Condenser": [
+      { "name": "Plastic", "num": 1 },
+      { "name": "Glass", "num": 1 },
+      { "name": "Iron", "num": 1 }
     ],
-    "シャトル発着場": [
-      { "name": "セラミック", "num": 2 },
-      { "name": "アルミニウム", "num": 1 }
+    "Buggy": [
+      { "name": "Compound", "num": 1 },
+      { "name": "Aluminum", "num": 1 }
     ],
-    "交易プラットフォーム": [
-      { "name": "EXOチップ", "num": 1 },
-      { "name": "タングステン", "num": 1 },
-      { "name": "鉄", "num": 1 }
+    "Chemistry Lab": [
+      { "name": "Ceramic", "num": 1 },
+      { "name": "Tungsten", "num": 1 },
+      { "name": "Glass", "num": 1 }
     ],
-    "化学実験室": [
-      { "name": "セラミック", "num": 1 },
-      { "name": "タングステン", "num": 1 },
-      { "name": "ガラス", "num": 1 }
+    "Crane": [],
+    "EXO Request Platform": [{ "name": "Resin", "num": 2 }],
+    "Landing Pad": [
+      { "name": "Ceramic", "num": 2 },
+      { "name": "Aluminum", "num": 1 }
     ],
-    "大型Tプラットフォーム": [
-      { "name": "樹脂", "num": 1 },
-      { "name": "アルミニウム", "num": 2 }
+    "Large Active Storage": [],
+    "Large Curved Platform": [
+      { "name": "Ceramic", "num": 2 },
+      { "name": "Compound", "num": 1 }
     ],
-    "大型プラットフォームA": [{ "name": "樹脂", "num": 2 }],
-    "大型プラットフォームB": [{ "name": "樹脂", "num": 3 }],
-    "大型プラットフォームC": [
-      { "name": "樹脂", "num": 1 },
-      { "name": "鉄", "num": 1 },
-      { "name": "セラミック", "num": 1 }
+    "Large Extended Platform": [{ "name": "Resin", "num": 2 }],
+    "Large Fog Horn": [
+      { "name": "Plastic", "num": 1 },
+      { "name": "Rubber", "num": 1 }
     ],
-    "大型円形プラットフォームA": [{ "name": "バイト", "num": 750 }],
-    "大気凝縮装置": [
-      { "name": "プラスチック", "num": 1 },
-      { "name": "ガラス", "num": 1 },
-      { "name": "鉄", "num": 1 }
+    "Large Platform A": [{ "name": "Resin", "num": 2 }],
+    "Large Platform B": [{ "name": "Resin", "num": 3 }],
+    "Large Platform C": [
+      { "name": "Resin", "num": 1 },
+      { "name": "Iron", "num": 1 },
+      { "name": "Ceramic", "num": 1 }
     ],
-    "溶鉱炉": [
-      { "name": "樹脂", "num": 2 },
-      { "name": "コンパウンド", "num": 1 }
+    "Large Printer": [{ "name": "Compound", "num": 3 }],
+    "Large Resource Canister": [],
+    "Large Rover Seat": [{ "name": "Compound", "num": 2 }],
+    "Large Shredder": [{ "name": "EXO", "num": 1 }],
+    "Large Solar Panel": [
+      { "name": "Aluminum", "num": 1 },
+      { "name": "Alloy", "num": 1 },
+      { "name": "Glass", "num": 1 }
     ],
-    "研究分析台": [{ "name": "バイト", "num": 0 }]
+    "Large Storage": [{ "name": "Ceramic", "num": 3 }],
+    "Large Storage Silo A": [{ "name": "Aluminum", "num": 2 }],
+    "Large Storage Silo B": [{ "name": "Steel", "num": 3 }],
+    "Large T-Platform": [
+      { "name": "Aluminum", "num": 2 },
+      { "name": "Resin", "num": 1 }
+    ],
+    "Large Wind Turbine": [
+      { "name": "Aluminum", "num": 1 },
+      { "name": "Alloy", "num": 1 },
+      { "name": "Glass", "num": 1 }
+    ],
+    "Medium Rover": [
+      { "name": "Plastic", "num": 2 },
+      { "name": "Rubber", "num": 1 }
+    ],
+    "Recreational Sphere": [
+      { "name": "Rubber", "num": 1 },
+      { "name": "Aluminum", "num": 1 }
+    ],
+    "Research Chamber": [
+      { "name": "Compound", "num": 2 },
+      { "name": "Resin", "num": 1 }
+    ],
+    "Smelting Furnace": [
+      { "name": "Resin", "num": 2 },
+      { "name": "Compound", "num": 1 }
+    ],
+    "Soil Centrifuge": [
+      { "name": "Compound", "num": 2 },
+      { "name": "Aluminum", "num": 1 }
+    ],
+    "Trade Platform": [
+      { "name": "EXO", "num": 1 },
+      { "name": "Chip", "num": 1 },
+      { "name": "Tungsten", "num": 1 }
+    ],
+    "VTOL": []
   },
-  "超大型": {}
+  "Extra_Large": {
+    "Auto Extractor": [],
+    "Extra Large Curved Platform": [
+      { "name": "Ceramic", "num": 2 },
+      { "name": "Compound", "num": 2 }
+    ],
+    "Extra Large Platform A": [
+      { "name": "Iron", "num": 2 },
+      { "name": "Ceramic", "num": 2 }
+    ],
+    "Extra Large Platform B": [{ "name": "Iron", "num": 4 }],
+    "Extra Large Platform C": [
+      { "name": "Iron", "num": 2 },
+      { "name": "Resin", "num": 2 }
+    ],
+    "Extra Large Shredder": [{ "name": "EXO", "num": 2 }],
+    "Extra Large Storage": [
+      { "name": "Iron", "num": 2 },
+      { "name": "Ceramic", "num": 2 }
+    ],
+    "Figurine Platform": [{ "name": "Iron", "num": 4 }],
+    "Large Rover": [{ "name": "EXO", "num": 2 }],
+    "Large Sensor Hoop A": [
+      { "name": "Zinc", "num": 1 },
+      { "name": "Quartz", "num": 2 }
+    ],
+    "Large Sensor Hoop B": [
+      { "name": "Zinc", "num": 2 },
+      { "name": "Quartz", "num": 1 }
+    ],
+    "Large Sensor Ring": [{ "name": "Zinc", "num": 2 }],
+    "Large Shuttle": [{ "name": "EXO", "num": 2 }],
+    "Medium Sensor Arch": [],
+    "Medium Shuttle": [
+      { "name": "Ceramic", "num": 2 },
+      { "name": "Aluminum", "num": 1 }
+    ],
+    "Shelter": [
+      { "name": "Silicone", "num": 2 },
+      { "name": "Plastic", "num": 2 }
+    ],
+    "Small Shuttle": [{ "name": "Aluminum", "num": 2 }],
+    "Solar Array": [
+      { "name": "Copper", "num": 1 },
+      { "name": "Glass", "num": 1 },
+      { "name": "Graphene", "num": 1 },
+      { "name": "Aluminum", "num": 1 }
+    ],
+    "XL Extended Platform": [{ "name": "Resin", "num": 3 }],
+    "XL Sensor Arch": [
+      { "name": "Zinc", "num": 2 },
+      { "name": "Quartz", "num": 2 }
+    ],
+    "XL Sensor Canopy": [
+      { "name": "Zinc", "num": 2 },
+      { "name": "Quartz", "num": 2 }
+    ],
+    "XL Sensor Hoop A": [
+      { "name": "Quartz", "num": 2 },
+      { "name": "Zinc", "num": 2 }
+    ],
+    "XL Sensor Hoop B": [
+      { "name": "Quartz", "num": 1 },
+      { "name": "Zinc", "num": 3 }
+    ],
+    "XL Wind Turbine": [
+      { "name": "Iron", "num": 1 },
+      { "name": "Ceramic", "num": 1 },
+      { "name": "Graphene", "num": 1 },
+      { "name": "Aluminum", "num": 1 }
+    ]
+  }
 }
