@@ -34,7 +34,8 @@ class RecipeCrawler():
         links = self.scrape_links()
         module_recipes = {}
 
-        for link in links[:4]:
+        for link in links:
+            print(link['name'])
             response = requests.get(HOST_URL + link['url'])
             soup = BeautifulSoup(response.text, 'html.parser')
             tr_list = soup.select('table.infoboxtable tr')
@@ -45,4 +46,4 @@ class RecipeCrawler():
                 continue
             td = tr_list[7].select('td')[0]
             module_recipes[link['name']] = self.shape_mat_tag(td)
-        print(module_recipes)
+        return module_recipes
